@@ -2,55 +2,55 @@
   "16": {
     "email": "aayanagarwal05@gmail.com",
     "role": "Member",
-    "twitter": "https://twitter.com/14Coderz",
     "github": "https://github.com/ion05",
+    "twitter": "https://twitter.com/14Coderz",
     "ig": "https://www.instagram.com/aayan_14.05/",
     "rank": 16,
     "name": "Aayan Agarwal",
     "img": "https://github.com/ion05.png"
   },
-  "10": {
+  "8": {
     "img": "https://github.com/oorjitchowdhary.png",
     "role": "Member",
+    "rank": 8,
     "ig": "https://instagram.com/adi._.tya.25",
-    "rank": 10,
     "name": "Aditya Supare"
   },
-  "11": {
+  "10": {
     "img": "https://github.com/oorjitchowdhary.png",
-    "rank": 11,
+    "rank": 10,
     "name": "Akshat Agarwal"
   },
-  "13": {
+  "12": {
     "email": "anshulsaha15@gmail.com",
     "role": "Member",
     "github": "https://github.com/sheldor1510",
     "ig": "https://instagram.com/deadwarrior7",
-    "rank": 13,
+    "rank": 12,
     "name": "Anshul Saha",
     "img": "https://github.com/sheldor1510.png"
   },
-  "12": {
+  "11": {
     "email": "dhiman2003ayush@gmail.com",
     "role": "Member",
-    "github": "https://github.com/Ayushh11",
     "twitter": "https://twitter.com/ayxsh_11",
-    "rank": 12,
+    "github": "https://github.com/Ayushh11",
     "ig": "https://instagram.com/ayush.dhimann",
+    "rank": 11,
     "name": "Ayush Dhiman",
     "img": "https://github.com/Ayushh11.png"
   },
   "5": {
     "img": "https://github.com/oorjitchowdhary.png",
     "role": "Member",
-    "rank": 5,
     "ig": "https://instagram.com/chiranjivmalhi",
+    "rank": 5,
     "name": "Chiranjiv Malhi"
   },
-  "6": {
+  "7": {
     "img": "https://github.com/oorjitchowdhary.png",
     "role": "Member",
-    "rank": 6,
+    "rank": 7,
     "name": "Devjyoti Ghosh",
     "instagram": "https://instagram.com/dev.lok"
   },
@@ -80,27 +80,27 @@
     "website": "https://laxya.co",
     "behance": "https://www.behance.net/designpr0",
     "twitter": "https://twitter.com/LaxyaPahuja",
-    "ig": "https://instagram.com/laxyapahuja_",
     "rank": 1,
+    "ig": "https://instagram.com/laxyapahuja_",
     "name": "Laxya Pahuja",
     "linkedin": "https://www.linkedin.com/in/laxyapahuja/"
   },
-  "8": {
+  "6": {
     "email": "mihir.aggarwal1000@gmail.com",
     "role": "Member",
     "github": "https://github.com/mihiraggarwal",
-    "rank": 8,
     "ig": "https://instagram.com/mihir_drumzz",
+    "rank": 6,
     "name": "Mihir Aggarwal",
     "img": "https://github.com/mihiraggarwal.png",
     "website": "http://mihiraggarwal.co/"
   },
   "18": {
     "role": "Member",
-    "github": "https://github.com/NotNevisKawatra",
     "twitter": "https://twitter.com/notneviskawatra",
-    "rank": 18,
+    "github": "https://github.com/NotNevisKawatra",
     "ig": "https://instagram.com/notneviskawatra",
+    "rank": 18,
     "name": "Nevis Kawatra",
     "img": "https://github.com/NotNevisKawatra.png"
   },
@@ -113,25 +113,25 @@
     "img": "https://github.com/Jazzuma.png"
   },
   "2": {
-    "fb": "https://facebook.com/oorjit",
     "email": "mail@oorjit.co",
+    "fb": "https://facebook.com/oorjit",
     "medium": "https://medium.com/@oorjitchowdhary",
     "role": "Vice President",
-    "twitter": "https://twitter.com/oorjitchowdhary",
     "github": "https://github.com/oorjitchowdhary",
-    "ig": "https://instagram.com/oorjitt.c",
+    "twitter": "https://twitter.com/oorjitchowdhary",
     "rank": 2,
+    "ig": "https://instagram.com/oorjitt.c",
     "name": "Oorjit Chowdhary",
     "img": "https://github.com/oorjitchowdhary.png",
     "linkedin": "https://linkedin.com/in/oorjitchowdhary"
   },
-  "7": {
+  "13": {
     "email": "uppal.pranav@gmail.com",
     "role": "member",
-    "github": "https://github.com/upspal",
     "twitter": "https://twitter.com/upspal",
+    "github": "https://github.com/upspal",
     "ig": "https://instagram.com/pranavuppall",
-    "rank": 7,
+    "rank": 13,
     "name": "Pranav Uppal",
     "img": "https://github.com/upspal.png"
   },
