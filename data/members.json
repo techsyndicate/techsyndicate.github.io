@@ -12,8 +12,8 @@
   "8": {
     "img": "https://github.com/oorjitchowdhary.png",
     "role": "Member",
-    "ig": "https://instagram.com/adi._.tya.25",
     "rank": 8,
+    "ig": "https://instagram.com/adi._.tya.25",
     "name": "Aditya Supare"
   },
   "10": {
@@ -33,18 +33,18 @@
   "11": {
     "email": "dhiman2003ayush@gmail.com",
     "role": "Member",
-    "github": "https://github.com/Ayushh11",
     "twitter": "https://twitter.com/ayxsh_11",
-    "rank": 11,
+    "github": "https://github.com/Ayushh11",
     "ig": "https://instagram.com/ayush.dhimann",
+    "rank": 11,
     "name": "Ayush Dhiman",
     "img": "https://github.com/Ayushh11.png"
   },
   "5": {
     "img": "https://github.com/oorjitchowdhary.png",
     "role": "Member",
-    "rank": 5,
     "ig": "https://instagram.com/chiranjivmalhi",
+    "rank": 5,
     "name": "Chiranjiv Malhi"
   },
   "7": {
@@ -66,31 +66,31 @@
   "14": {
     "role": "Member",
     "github": "https://github.com/Jai-17",
-    "ig": "https://www.instagram.com/ig_jai7/",
     "rank": 14,
+    "ig": "https://www.instagram.com/ig_jai7/",
     "name": "Jai Madhukar",
     "img": "https://github.com/Jai-17.png"
   },
   "1": {
-    "behance": "https://www.behance.net/designpr0",
-    "twitter": "https://twitter.com/LaxyaPahuja",
-    "ig": "https://instagram.com/laxyapahuja_",
-    "rank": 1,
-    "name": "Laxya Pahuja",
-    "linkedin": "https://www.linkedin.com/in/laxyapahuja/",
-    "email": "laxya.pahuja8@gmail.com",
     "fb": "https://facebook.com/designpr0",
+    "email": "laxya.pahuja8@gmail.com",
     "role": "President",
     "github": "https://github.com/laxyapahuja",
     "img": "https://github.com/laxyapahuja.png",
-    "website": "https://laxya.co"
+    "website": "https://laxya.co",
+    "behance": "https://www.behance.net/designpr0",
+    "twitter": "https://twitter.com/LaxyaPahuja",
+    "rank": 1,
+    "ig": "https://instagram.com/laxyapahuja_",
+    "name": "Laxya Pahuja",
+    "linkedin": "https://www.linkedin.com/in/laxyapahuja/"
   },
   "6": {
     "email": "mihir.aggarwal1000@gmail.com",
     "role": "Member",
     "github": "https://github.com/mihiraggarwal",
-    "ig": "https://instagram.com/mihir_drumzz",
     "rank": 6,
+    "ig": "https://instagram.com/mihir_drumzz",
     "name": "Mihir Aggarwal",
     "img": "https://github.com/mihiraggarwal.png",
     "website": "http://mihiraggarwal.co/"
@@ -128,27 +128,27 @@
   "13": {
     "email": "uppal.pranav@gmail.com",
     "role": "member",
-    "twitter": "https://twitter.com/upspal",
     "github": "https://github.com/upspal",
-    "ig": "https://instagram.com/pranavuppall",
+    "twitter": "https://twitter.com/upspal",
     "rank": 13,
+    "ig": "https://instagram.com/pranavuppall",
     "name": "Pranav Uppal",
     "img": "https://github.com/upspal.png"
   },
   "4": {
+    "email": "guptarachit2004@gmail.com",
+    "fb": "https://www.facebook.com/dotrachit",
+    "role": "Joint Secretary",
+    "github": "https://github.com/dotrachit",
+    "img": "https://github.com/dotrachit.png",
+    "website": "https://rachitgupta.co/",
     "medium": "https://medium.com/@dotrachit/",
     "behance": "https://www.behance.net/dotrachit",
     "twitter": "https://twitter.com/dotrachit",
     "rank": 4,
     "ig": "https://instagram.com/rachitguptaa_",
     "name": "Rachit Gupta",
-    "linkedin": "https://www.linkedin.com/in/dotrachit/",
-    "fb": "https://www.facebook.com/dotrachit",
-    "email": "guptarachit2004@gmail.com",
-    "role": "Joint Secretary",
-    "github": "https://github.com/dotrachit",
-    "img": "https://github.com/dotrachit.png",
-    "website": "https://rachitgupta.co/"
+    "linkedin": "https://www.linkedin.com/in/dotrachit/"
   },
   "3": {
     "role": "Secretary",
