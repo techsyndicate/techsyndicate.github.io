@@ -1,0 +1,51 @@
+[
+  {
+    "batch": "2018-19",
+    "alumni": [
+      {
+        "name": "Padam Chopra",
+        "image": "https://github.com/padamchopra.png",
+        "exrole": "President",
+        "social": {
+          "github": "https://github.com/padamchopra",
+          "instagram": "https://instagram.com/padam.chopra",
+          "website": "https://padamchopra.me",
+          "linkedin": "https://www.linkedin.com/in/padamchopra/"
+        }
+      },
+      {
+        "name": "Aryaman Agrawal",
+        "image": "https://github.com/AryamanAgrawal.png",
+        "exrole": "Member",
+        "social": {
+          "facebook": "https://facebook.com/aryaman.agrawal.21",
+          "github": "https://github.com/AryamanAgrawal",
+          "instagram": "https://instagram.com/itsaryamann"
+        }
+      },
+      {
+        "name": "Arnab Sagar",
+        "image": "https://github.com/ArnabSagar.png",
+        "exrole": "Member",
+        "social": {
+          "github": "https://github.com/ArnabSagar",
+          "instagram": "https://instagram.com/arnab.sagar"
+        }
+      }
+    ]
+  },
+  {
+    "batch": "2017-18",
+    "alumni": [
+      {
+        "name": "Ashwin Tewary",
+        "image": "https://github.com/ashwintewary.png",
+        "exrole": "President",
+        "social": {
+          "facebook": "https://facebook.com/profile.php?id=100006700126951",
+          "github": "https://github.com/ashwintewary"
+        }
+      }
+    ]
+  }
+]
