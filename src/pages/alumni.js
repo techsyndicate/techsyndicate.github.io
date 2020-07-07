@@ -1,11 +1,16 @@
 import React, { Component } from "react";
 import data from '../data/alumni.json';
-import Member from '../components/member';
-import { Row, Col } from "react-materialize";
+import { Row } from "react-materialize";
+import Jumbotron from "../components/jumbotron";
 
 class AlumniPage extends Component {
     render(){
         return (
+            <>
+            <Jumbotron
+              title="Alumni"
+              desc="Exun’s members form an elite team of technology enthusiasts, with skills ranging from design and programming to quizzing and hardware."
+            />
             <Row>
             {data.map(alumni => (
                 <>
@@ -25,6 +30,7 @@ class AlumniPage extends Component {
                 </>
             ))}
             </Row>
+            </>
         )
     }
 }

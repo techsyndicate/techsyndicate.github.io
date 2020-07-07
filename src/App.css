@@ -19,7 +19,8 @@ body {
   margin: 0;
 }
 
-.member-name {
+.member-name, .event-name {
+  color: #fff;
   font-size: 1.4rem;
   font-weight: 600;
 }
@@ -41,4 +42,18 @@ body {
 
 p {
   color: #fff;
+}
+
+h4 {
+  color: #fff;
+}
+
+.jumbotron {
+  color: #fff;
+  width: 50%;
+  margin: 20px 0;
+}
+
+.event-card p {
+  margin: 4px 0;
 }

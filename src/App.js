@@ -4,6 +4,8 @@ import MembersPage from './pages/members';
 import Navbar from './components/navbar';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AlumniPage from './pages/alumni';
+import EventsPage from './pages/events';
+import IndexPage from './pages/index';
 
 function App() {
   return (
@@ -12,7 +14,8 @@ function App() {
       <Switch>
         <Route path="/members"><div className="container"><MembersPage/></div></Route>
         <Route path="/alumni"><div className="container"><AlumniPage/></div></Route>
-        <Route exact path="/"><p>Hello, you're at index</p></Route>
+        <Route path="/events"><div className="container"><EventsPage/></div></Route>
+        <Route exact path="/"><div className="container"><IndexPage/></div></Route>
       </Switch>
     </Router>
   );
