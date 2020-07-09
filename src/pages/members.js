@@ -10,16 +10,15 @@ class MembersPage extends Component {
             <>
             <Jumbotron
               title="Members"
-              desc="Exun’s members form an elite team of technology enthusiasts, with skills ranging from design and programming to quizzing and hardware."
+              desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat dui ut varius ultricies. Nam fermentum iaculis elit, id rutrum lorem vestibulum et. Aenean ultricies ullamcorper nulla, cursus auctor sapien scelerisque et. Quisque est velit, elementum nec nisl feugiat, vestibulum placerat ligula."
             />
             <Row>
                 {data.map(member => (
-                    <Col m={3} s={12} key={member.name}>
+                    <Col l={3} key={member.name}>
                         <Member
-                          key={member.name}
                           name={member.name}
                           role={member.role}
-                          imgurl={member.img}
+                          imgurl={member.image}
                         />
                     </Col>
                 ))}

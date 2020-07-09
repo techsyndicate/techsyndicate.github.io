@@ -10,18 +10,24 @@ class AlumniPage extends Component {
             <>
             <Jumbotron
               title="Alumni"
-              desc="Exun’s members form an elite team of technology enthusiasts, with skills ranging from design and programming to quizzing and hardware."
+              desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat dui ut varius ultricies. Nam fermentum iaculis elit, id rutrum lorem vestibulum et. Aenean ultricies ullamcorper nulla, cursus auctor sapien scelerisque et. Quisque est velit, elementum nec nisl feugiat, vestibulum placerat ligula."
             />
             <Row>
-                {data.map(alumnus => (
-                    <Col m={3} s={12} key={Member.name}>
+                {data.map(batch => (
+                    <>
+                    <h4>{batch.batch}</h4>
+                    <Row>
+                    {batch.alumni.map(alumnus => (
+                        <Col m={3} s={12} key={alumnus.name}>
                         <Member
-                          key={alumnus.name}
                           name={alumnus.name}
-                          role={alumnus.batch}
+                          role={alumnus.exrole}
                           imgurl={alumnus.image}
                         />
-                    </Col>
+                        </Col>
+                    ))}
+                    </Row>
+                    </>
                 ))}
             </Row>
             </>

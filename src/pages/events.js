@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Row, Col } from "react-materialize";
 import data from "../data/events.json";
+import Card from "../components/card";
 import Jumbotron from "../components/jumbotron";
 
 class EventsPage extends Component {
@@ -9,18 +10,17 @@ class EventsPage extends Component {
             <>
             <Jumbotron
               title="Events"
-              desc="Bigger and better than ever before.
-Exun has been organizing its flagship event for two decades. With Exun 2019, we continued its legacy as a national event open to participants from around the country."
+              desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat dui ut varius ultricies. Nam fermentum iaculis elit, id rutrum lorem vestibulum et. Aenean ultricies ullamcorper nulla, cursus auctor sapien scelerisque et. Quisque est velit, elementum nec nisl feugiat, vestibulum placerat ligula."
             />
             <Row>
                 {data.map(event => (
                     <Col m={4} key={event.title}>
-                        <div className="event-card">
-                            <span className="event-name">{event.title}</span>
-                            <p><strong>Eligibility: {event.eligibility}</strong></p>
-                            <p>Number of participants: {event.participants}</p>
-                            <p>{event.description}</p>
-                        </div>
+                        <Card
+                          title={event.title}
+                          eligibility={event.eligibility}
+                          participants={event.participants}
+                          desc={event.description}
+                        />
                     </Col>
                 ))}
             </Row>

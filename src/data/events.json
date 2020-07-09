@@ -9,25 +9,25 @@
         "title": "Designathon",
         "eligibility": "IX-XII",
         "participants": "3",
-        "description": "If you know what looks good and what not, then you already know design.\t~ Ribhav Sharma, Secretary"
+        "description": "If you know what looks good and what not, then you already know design. ~ Ribhav Sharma"
     },
     {
         "title": "Encryptid",
         "eligibility": "Open",
         "participants": "1",
-        "description": "Google is your best friend, the mods are not. Encryptid will start at 12:00 AM 1st August 2020 and end at 12:00 AM 3rd August 2020. Join the &lt;a&gt; href='https://ctrl.gq/encryptiddiscord'>discord server&lt;/a&gt; to stay updated."
+        "description": "Google is your best friend, the mods are not.Join the discord server to stay updated."
     },
     {
         "title": "Group Discussion",
-        "eligibility": "",
-        "participants": "3",
-        "description": ""
+        "eligibility": "IX-XII",
+        "participants": "2",
+        "description": "Lorem ipsum dolor sit amet"
     },
     {
         "title": "Crossword",
-        "eligibility": "",
-        "participants": "3",
-        "description": ""
+        "eligibility": "IX-XII",
+        "participants": "2",
+        "description": "Lorem ipsum dolor sit amet"
     },
     {
         "title": "Surprise",
@@ -36,15 +36,39 @@
         "description": "You may never know."
     },
     {
-        "title": "Gaming",
-        "eligibility": "",
-        "participants": "3",
-        "description": ""
+        "title": "Audio Editing",
+        "eligibility": "IX-XII",
+        "participants": "1",
+        "description": "Lorem ipsum dolor sit amet"
     },
     {
-        "title": "Audio Editing",
-        "eligibility": "",
-        "participants": "3",
-        "description": ""
+        "title": "Jr. Robotics",
+        "eligibility": "VI-VII",
+        "participants": "2",
+        "description": "Lorem ipsum dolor sit amet"
+    },
+    {
+        "title": "Sr. Robotics",
+        "eligibility": "IX-XII",
+        "participants": "2",
+        "description": "Lorem ipsum dolor sit amet"
+    },
+    {
+        "title": "Jr. Quiz",
+        "eligibility": "VI-VII",
+        "participants": "2",
+        "description": "Lorem ipsum dolor sit amet"
+    },
+    {
+        "title": "Paint 3D",
+        "eligibility": "VI-VII",
+        "participants": "2",
+        "description": "Lorem ipsum dolor sit amet"
+    },
+    {
+        "title": "Adobe Spark",
+        "eligibility": "VI-VII",
+        "participants": "2",
+        "description": "Lorem ipsum dolor sit amet"
     }
 ]
