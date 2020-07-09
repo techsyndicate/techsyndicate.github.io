@@ -14,10 +14,11 @@ Exun has been organizing its flagship event for two decades. With Exun 2019, we 
             />
             <Row>
                 {data.map(event => (
-                    <Col m={4}>
+                    <Col m={4} key={event.title}>
                         <div className="event-card">
                             <span className="event-name">{event.title}</span>
                             <p><strong>Eligibility: {event.eligibility}</strong></p>
+                            <p>Number of participants: {event.participants}</p>
                             <p>{event.description}</p>
                         </div>
                     </Col>

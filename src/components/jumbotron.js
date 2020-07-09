@@ -4,7 +4,7 @@ class Jumbotron extends Component {
     render(){
         return (
             <div className="jumbotron">
-                <h3>{this.props.title}</h3>
+                <div className="title">{this.props.title}</div>
                 <span>{this.props.desc}</span>
             </div>
         )

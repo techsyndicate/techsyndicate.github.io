@@ -2,16 +2,49 @@
     {
         "title": "Hackathon",
         "eligibility": "IX-XII",
+        "participants": "3",
         "description": "A classic online hackathon where plagiarism is scoffed at but copied code is the way to go."
     },
     {
         "title": "Designathon",
         "eligibility": "IX-XII",
+        "participants": "3",
         "description": "If you know what looks good and what not, then you already know design.\t~ Ribhav Sharma, Secretary"
     },
     {
         "title": "Encryptid",
-        "eligibility": "Open for all",
-        "description": "Google is your best friend, the mods are not."
+        "eligibility": "Open",
+        "participants": "1",
+        "description": "Google is your best friend, the mods are not. Encryptid will start at 12:00 AM 1st August 2020 and end at 12:00 AM 3rd August 2020. Join the &lt;a&gt; href='https://ctrl.gq/encryptiddiscord'>discord server&lt;/a&gt; to stay updated."
+    },
+    {
+        "title": "Group Discussion",
+        "eligibility": "",
+        "participants": "3",
+        "description": ""
+    },
+    {
+        "title": "Crossword",
+        "eligibility": "",
+        "participants": "3",
+        "description": ""
+    },
+    {
+        "title": "Surprise",
+        "eligibility": "IX-XII",
+        "participants": "2",
+        "description": "You may never know."
+    },
+    {
+        "title": "Gaming",
+        "eligibility": "",
+        "participants": "3",
+        "description": ""
+    },
+    {
+        "title": "Audio Editing",
+        "eligibility": "",
+        "participants": "3",
+        "description": ""
     }
 ]

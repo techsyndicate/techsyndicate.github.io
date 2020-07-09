@@ -6,7 +6,6 @@ class IndexPage extends Component {
         return (
             <Jumbotron
               title="Tech Syndicate"
-              desc="Amazing club, amazing website; don't tell Exun Clan please thanks goodbye"
             />
         )
     }

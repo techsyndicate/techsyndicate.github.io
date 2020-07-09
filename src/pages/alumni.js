@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import data from '../data/alumni.json';
-import { Row } from "react-materialize";
-import Jumbotron from "../components/jumbotron";
+import { Row, Col } from "react-materialize";
+import Jumbotron from '../components/jumbotron';
+import Member from '../components/member';
 
 class AlumniPage extends Component {
     render(){
@@ -12,23 +13,16 @@ class AlumniPage extends Component {
               desc="Exun’s members form an elite team of technology enthusiasts, with skills ranging from design and programming to quizzing and hardware."
             />
             <Row>
-            {data.map(alumni => (
-                <>
-                <p>{alumni.batch}</p>
-                {alumni.alumni.map(alumnus => (
-                    /*<Member
-                      key={alumnus.name}
-                      name={alumnus.name}
-                      role={alumnus.exrole}
-                      imgurl={alumnus.image}
-                    />*/
-                    <>
-                    <p>{alumnus.name}</p>
-                    <p>{alumnus.exrole}</p>
-                    </>
+                {data.map(alumnus => (
+                    <Col m={3} s={12} key={Member.name}>
+                        <Member
+                          key={alumnus.name}
+                          name={alumnus.name}
+                          role={alumnus.batch}
+                          imgurl={alumnus.image}
+                        />
+                    </Col>
                 ))}
-                </>
-            ))}
             </Row>
             </>
         )

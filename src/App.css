@@ -1,5 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+nav {
+  background-color: #000;
+  padding: 0 6rem;
+}
+
+nav li a {
+  font-size: 18px;
+}
+
+nav .brand-logo {
+  margin-top: 2px;
+}
+
 body {
   background-color: #0D0D0D;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.container {
+  padding: 0 70px;
+}
+
+.col {
+  padding: 0 !important;
 }
 
 .member {
@@ -7,7 +31,7 @@ body {
   background-color: #000;
   color: #fff;
   width: fit-content;
-  margin: 10px auto;
+  margin: 10px 10px;
 }
 
 .member-content {
@@ -21,8 +45,7 @@ body {
 
 .member-name, .event-name {
   color: #fff;
-  font-size: 1.4rem;
-  font-weight: 600;
+  font-size: 1.2rem;
 }
 .social {
   margin: 5px 0;
@@ -50,8 +73,12 @@ h4 {
 
 .jumbotron {
   color: #fff;
-  width: 50%;
-  margin: 20px 0;
+  width: 75%;
+  margin: 42px 0;
+}
+
+.jumbotron .title {
+  font-size: 48px;
 }
 
 .event-card p {
