@@ -6,6 +6,7 @@ class IndexPage extends Component {
         return (
             <Jumbotron
               title="Tech Syndicate"
+              desc="Robotronics '20 - Aug 6th, 2020"
             />
         )
     }
