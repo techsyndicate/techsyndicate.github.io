@@ -10,7 +10,7 @@ nav li a {
 }
 
 nav .brand-logo {
-  margin-top: 2px;
+  padding: 4px 0 3px 0;
 }
 
 body {
@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-  padding: 0 76px;
+  padding: 0 70px;
 }
 
 .col {
@@ -32,13 +32,12 @@ body {
   border-radius: 15px;
   background-color: #000;
   color: #fff;
-  margin: 10px 10px 10px 0;
+  margin: 0 14px 14px 0;
   display: inline-block;
 }
 
 .member-content {
-  padding: 2px 14px 10px 14px;
-
+  padding: 2px 14px 14px 14px;
 }
 
 .member-content h5 {
@@ -48,7 +47,9 @@ body {
 .member-name, .event-name {
   color: #fff;
   font-size: 1.2rem;
+  word-wrap: break-word;
 }
+
 .social {
   margin: 5px 0;
 }
@@ -98,7 +99,18 @@ h4 {
   margin: 10px;
 }
 
-hr {
+.card hr {
   border: 1px solid #fff;
   background-color: #fff;
+}
+
+.footer hr {
+  background-color: #ddd;
+  margin: 0;
+}
+
+.footer-text {
+  color: #ddd;
+  text-align: center;
+  padding: 12px 0;
 }

@@ -14,7 +14,7 @@ class MembersPage extends Component {
             />
             <Row>
                 {data.map(member => (
-                    <Col l={3} key={member.name}>
+                    <Col key={member.name}>
                         <Member
                           name={member.name}
                           role={member.role}

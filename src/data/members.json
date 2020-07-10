@@ -81,14 +81,6 @@
     }
   },
   {
-    "name": "Aditya Supare",
-    "role": "Member",
-    "image": "https://github.com/oorjitchowdhary.png",
-    "social": {
-      "instagram": "https://instagram.com/adi._.tya.25"
-    }
-  },
-  {
     "name": "Vaibhav Sharma",
     "role": "Member",
     "image": "https://github.com/gigabite-pro.png",
@@ -96,22 +88,6 @@
       "email": "rajmachawal19@gmail.com", 
       "github": "https://github.com/ginstagramabite-pro",
       "instagram": "https://instagram.com/_.chintuu._"
-    }
-  },
-  {
-    "name": "Akshat Agarwal",
-    "role": "Member",
-    "image": "https://github.com/oorjitchowdhary.png"
-  },
-  {
-    "name": "Ayush Dhiman",
-    "role": "Member",
-    "image": "https://github.com/oorjitchowdhary.png",
-    "social": {
-      "email": "dhiman2003ayush@gmail.com",
-      "twitter": "https://twitter.com/ayxsh_11",
-      "github": "https://github.com/Ayushh11",
-      "instagram": "https://instagram.com/ayush.dhimann"
     }
   },
   {
@@ -125,18 +101,6 @@
     }
   },
   {
-    "name": "Tanush Guha",
-    "image": "https://github.com/oorjitchowdhary.png",
-    "role": "Member",
-    "social": {}
-  },
-  {
-    "name": "Shashwat Vishal",
-    "image": "https://github.com/oorjitchowdhary.png",
-    "role": "Member",
-    "social": {}
-  },
-  {
     "name": "Pranav Uppal",
     "role": "Member",
     "image": "https://github.com/upspal.png",
@@ -146,6 +110,42 @@
       "twitter": "https://twitter.com/upspal",
       "instagram": "https://instagram.com/pranavuppall"
     }
+  },
+  {
+    "name": "Tanush Guha",
+    "image": "https://github.com/oorjitchowdhary.png",
+    "role": "Member",
+    "social": {}
+  },
+  {
+    "name": "Ayush Dhiman",
+    "role": "Member",
+    "image": "https://github.com/oorjitchowdhary.png",
+    "social": {
+      "email": "dhiman2003ayush@gmail.com",
+      "twitter": "https://twitter.com/ayxsh_11",
+      "github": "https://github.com/Ayushh11",
+      "instagram": "https://instagram.com/ayush.dhimann"
+    }
+  },
+  {
+    "name": "Shashwat Vishal",
+    "image": "https://github.com/oorjitchowdhary.png",
+    "role": "Member",
+    "social": {}
+  },
+  {
+    "name": "Aditya Supare",
+    "role": "Member",
+    "image": "https://github.com/oorjitchowdhary.png",
+    "social": {
+      "instagram": "https://instagram.com/adi._.tya.25"
+    }
+  },
+  {
+    "name": "Akshat Agarwal",
+    "role": "Member",
+    "image": "https://github.com/oorjitchowdhary.png"
   },
   {
     "name": "Jai Madhukar",
