@@ -18,7 +18,7 @@ class AlumniPage extends Component {
                     <h4>{batch.batch}</h4>
                     <Row>
                     {batch.alumni.map(alumnus => (
-                        <Col key={alumnus.name}>
+                        <Col m={3} key={alumnus.name}>
                         <Member
                           name={alumnus.name}
                           role={alumnus.exrole}
