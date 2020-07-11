@@ -8,6 +8,7 @@ import EventsPage from './pages/events';
 import MembersPage from './pages/members';
 import AlumniPage from './pages/alumni';
 import ResourcesPage from './pages/resources';
+import PageNotFound from './pages/404';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route exact path="/members"><div className="container"><MembersPage/></div></Route>
         <Route exact path="/alumni"><div className="container"><AlumniPage/></div></Route>
         <Route exact path="/resources"><div className="container"><ResourcesPage/></div></Route>
+        <Route component={PageNotFound}/>
       </Switch>
       <Footer/>
     </Router>

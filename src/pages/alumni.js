@@ -21,15 +21,17 @@ class AlumniPage extends Component {
                     <>
                     <h4>{batch.batch}</h4>
                     <Row>
-                    {batch.alumni.map(alumnus => (
-                        <Col l={2.5} key={alumnus.name}>
-                        <Member
-                          name={alumnus.name}
-                          role={alumnus.exrole}
-                          imgurl={alumnus.image}
-                        />
-                        </Col>
-                    ))}
+                        <div className="alumni-grid">
+                        {batch.alumni.map(alumnus => (
+                            <Col l={3} key={alumnus.name}>
+                                <Member
+                                  name={alumnus.name}
+                                  role={alumnus.exrole}
+                                  imgurl={alumnus.image}
+                                />
+                            </Col>
+                        ))}
+                        </div>
                     </Row>
                     </>
                 ))}

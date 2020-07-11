@@ -27,6 +27,10 @@ body {
   padding: 0 48px;
 }
 
+.alumni-grid {
+  padding: 0 48px 0 0;
+}
+
 .member {
   border-radius: 15px;
   background-color: #000;
@@ -75,12 +79,11 @@ h4 {
 
 .jumbotron {
   color: #fff;
-  width: 75%;
   margin: 20px 0;
 }
 
 .jumbotron .title {
-  font-size: 48px;
+  font-size: 3rem;
 }
 
 .event-card p {
@@ -104,22 +107,10 @@ h4 {
 
 .resource {
   padding: 10px;
-  margin: 10px;
+  margin: 8px 0;
   border: 1px solid #000;
   font-size: 18px;
   text-align: center;
-}
-
-.resource-icon {
-  color: #16e16e;
-  display: inline-block;
-  margin-right: 10px;
-  padding: 2px 0;
-}
-
-.resource-name {
-  display: inline-block;
-  margin-top: 0;
   color: #16e16e;
 }
 
@@ -132,4 +123,8 @@ h4 {
   color: #ddd;
   text-align: center;
   padding: 12px 0;
+}
+
+.pagenotfound {
+  padding: 100px 0;
 }
