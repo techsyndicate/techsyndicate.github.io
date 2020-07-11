@@ -13,7 +13,7 @@ class ResourcesPage extends Component {
             </Helmet>
             <Jumbotron
                 title="Learning Resources"
-                desc="Tech Syndicate has members specializing in different fields, ranging from A/V Editing to Web Development. We have collated some learning resources for any newcomer who wishes to learn. These will give you brief overview of the different fields and help you navigate the most vital aspects of the same."
+                desc="Tech Syndicate has members specializing in different fields, ranging from A/V Editing to Web Development. We have collated some learning resources for any newcomer who wishes to learn. These will give you a brief overview of the different fields and help you focus on the most vital aspects of the same."
             />
             <Row>
             {data.map(resource => (
