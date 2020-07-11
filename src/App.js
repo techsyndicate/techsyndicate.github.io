@@ -13,9 +13,9 @@ function App() {
     <Router>
       <Navbar/>
       <Switch>
-        <Route path="/members"><div className="container"><MembersPage/></div></Route>
-        <Route path="/alumni"><div className="container"><AlumniPage/></div></Route>
-        <Route path="/events"><div className="container"><EventsPage/></div></Route>
+        <Route exact path="/members"><div className="container"><MembersPage/></div></Route>
+        <Route exact path="/alumni"><div className="container"><AlumniPage/></div></Route>
+        <Route exact path="/events"><div className="container"><EventsPage/></div></Route>
         <Route exact path="/"><div className="container"><IndexPage/></div></Route>
       </Switch>
       <Footer/>

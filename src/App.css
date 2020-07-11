@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 
 nav {
-  background-color: #000;
+  background-color: #0d0d0d;
   padding: 0 6rem;
 }
 
@@ -10,7 +10,11 @@ nav li a {
 }
 
 nav .brand-logo {
-  padding: 4px 0 3px 0;
+  padding: 6px 0 3px 0;
+}
+
+.row .col {
+  padding: 0 0.75rem 0 0;
 }
 
 body {
@@ -19,13 +23,8 @@ body {
   overflow-x: hidden;
 }
 
-.container {
-  padding: 0 70px;
-}
-
-.col {
-  padding: 0 !important;
-  margin: 0;
+.member-grid {
+  padding: 0 48px;
 }
 
 .member {
@@ -46,8 +45,7 @@ body {
 
 .member-name, .event-name {
   color: #fff;
-  font-size: 1.2rem;
-  word-wrap: break-word;
+  font-size: 1.1rem;
 }
 
 .social {
@@ -78,7 +76,7 @@ h4 {
 .jumbotron {
   color: #fff;
   width: 75%;
-  margin: 42px 0;
+  margin: 20px 0;
 }
 
 .jumbotron .title {

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Row, Col } from "react-materialize";
-import data from "../data/events.json";
+import data from "../data/events";
 import Card from "../components/card";
 import Jumbotron from "../components/jumbotron";
 
@@ -14,7 +14,7 @@ class EventsPage extends Component {
             />
             <Row>
                 {data.map(event => (
-                    <Col m={4} key={event.title}>
+                    <Col l={4} key={event.title}>
                         <Card
                           title={event.title}
                           eligibility={event.eligibility}

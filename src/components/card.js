@@ -8,7 +8,6 @@ class Card extends Component {
                 <hr/>
                 <div className="eligibility">Eligibility: {this.props.eligibility}</div>
                 <div className="participants">Max participants: {this.props.participants}</div>
-                <br/>
                 <div className="description">{this.props.desc}</div>
             </div>
         )

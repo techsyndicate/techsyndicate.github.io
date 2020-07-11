@@ -112,51 +112,6 @@
     }
   },
   {
-    "name": "Tanush Guha",
-    "image": "https://github.com/oorjitchowdhary.png",
-    "role": "Member",
-    "social": {}
-  },
-  {
-    "name": "Ayush Dhiman",
-    "role": "Member",
-    "image": "https://github.com/oorjitchowdhary.png",
-    "social": {
-      "email": "dhiman2003ayush@gmail.com",
-      "twitter": "https://twitter.com/ayxsh_11",
-      "github": "https://github.com/Ayushh11",
-      "instagram": "https://instagram.com/ayush.dhimann"
-    }
-  },
-  {
-    "name": "Shashwat Vishal",
-    "image": "https://github.com/oorjitchowdhary.png",
-    "role": "Member",
-    "social": {}
-  },
-  {
-    "name": "Aditya Supare",
-    "role": "Member",
-    "image": "https://github.com/oorjitchowdhary.png",
-    "social": {
-      "instagram": "https://instagram.com/adi._.tya.25"
-    }
-  },
-  {
-    "name": "Akshat Agarwal",
-    "role": "Member",
-    "image": "https://github.com/oorjitchowdhary.png"
-  },
-  {
-    "name": "Jai Madhukar",
-    "role": "Member",
-    "image": "https://github.com/oorjitchowdhary.png",
-    "social": {
-      "github": "https://github.com/Jai-17",
-      "instagram": "https://www.instagram.com/instagram_jai7/"
-    }
-  },
-  {
     "name": "Yuvraaj Narula",
     "role": "Member",
     "image": "https://github.com/yuvraajnarula.png",
@@ -175,15 +130,6 @@
       "twitter": "https://twitter.com/14Coderz",
       "github": "https://github.com/ion05",
       "instagram": "https://www.instagram.com/aayan_14.05/"
-    }
-  },
-  {
-    "name": "Omar Usmani",
-    "role": "Member",
-    "image": "https://github.com/oorjitchowdhary.png",
-    "social": {
-      "email": "omarus2805@gmail.com",
-      "github": "https://github.com/Jazzuma"
     }
   },
   {
