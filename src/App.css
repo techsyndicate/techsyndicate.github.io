@@ -102,6 +102,27 @@ h4 {
   background-color: #fff;
 }
 
+.resource {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #000;
+  font-size: 18px;
+  text-align: center;
+}
+
+.resource-icon {
+  color: #16e16e;
+  display: inline-block;
+  margin-right: 10px;
+  padding: 2px 0;
+}
+
+.resource-name {
+  display: inline-block;
+  margin-top: 0;
+  color: #16e16e;
+}
+
 .footer hr {
   background-color: #ddd;
   margin: 0;
