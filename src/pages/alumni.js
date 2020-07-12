@@ -19,9 +19,9 @@ class AlumniPage extends Component {
             <Row>
                 {data.map(batch => (
                     <>
+                    <div className="alumni-grid">
                     <h4>{batch.batch}</h4>
                     <Row>
-                        <div className="alumni-grid">
                         {batch.alumni.map(alumnus => (
                             <Col l={3} key={alumnus.name}>
                                 <Member
@@ -31,8 +31,8 @@ class AlumniPage extends Component {
                                 />
                             </Col>
                         ))}
-                        </div>
                     </Row>
+                    </div>
                     </>
                 ))}
             </Row>

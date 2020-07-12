@@ -24,6 +24,7 @@ class MembersPage extends Component {
                           name={member.name}
                           role={member.role}
                           imgurl={member.image}
+                          web={member.social["website"]}
                         />
                     </Col>
                 ))}
