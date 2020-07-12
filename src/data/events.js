@@ -45,7 +45,7 @@ const Events = [
         eligibility: 'IX-XII',
         participants: '1',
         description: <p>Submit your entries at audio@techsyndicate.co by 28th July.</p>,
-        deliverables: A zip file containing the project file, samples used, and a README.,
+        deliverables: 'A zip file containing the project file, samples used, and a README.',
         prompt: 'https://ctrl.gq/audio/prelims'
     },
     {
