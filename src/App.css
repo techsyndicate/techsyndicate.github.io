@@ -128,3 +128,13 @@ h4 {
 .pagenotfound {
   padding: 100px 0;
 }
+
+input {
+  color: #fff;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+input[type='checkbox']{
+  color: #fff;
+  background-color: #fff;
+}
