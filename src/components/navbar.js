@@ -15,7 +15,6 @@ class Navbar extends Component {
                       <li><Link to="/members">Members</Link></li>
                       <li><Link to="/alumni">Alumni</Link></li>
                       <li><Link to="/resources">Resources</Link></li>
-                      <li><Link to="/register">Register</Link></li>
                     </ul>
                 </div>
           </nav>
@@ -24,7 +23,6 @@ class Navbar extends Component {
             <li><Link className="sidenav-close" to="/members">Members</Link></li>
             <li><Link className="sidenav-close" to="/alumni">Alumni</Link></li>
             <li><Link className="sidenav-close" to="/resources">Resources</Link></li>
-            <li><Link className="sidenav-close" to="/register">Register</Link></li>
           </ul>
           </>
         )

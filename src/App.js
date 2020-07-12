@@ -21,7 +21,6 @@ function App() {
         <Route exact path="/members"><div className="container"><MembersPage/></div></Route>
         <Route exact path="/alumni"><div className="container"><AlumniPage/></div></Route>
         <Route exact path="/resources"><div className="container"><ResourcesPage/></div></Route>
-        <Route exact path="/register"><div className="container"><RegisterPage/></div></Route>
         <Route component={PageNotFound}/>
       </Switch>
       <Footer/>

@@ -154,31 +154,6 @@ class RegisterPage extends Component {
     }
 
     render() {
-        const hackForm = 
-            <div className="hack-form">
-                <p>Hackathon</p>
-                <TextInput id="TextInput-4" label="Participant 1" name="hack_p1" value={this.state.hack_p1} onChange={this.updateInput} m={8}/>
-                <TextInput id="TextInput-4" label="Participant 2" name="hack_p2" value={this.state.hack_p2} onChange={this.updateInput} m={8}/>
-                <TextInput id="TextInput-4" label="Participant 3" name="hack_p3" type="email" value={this.state.hack_p3} onChange={this.updateInput} m={8}/>
-            </div>
-        const designForm =
-            <div className="hack-form">
-                <p>Designathon</p>
-                <TextInput id="TextInput-4" label="Participant 1" name="design_p1" value={this.state.design_p1} onChange={this.updateInput} m={8}/>
-                <TextInput id="TextInput-4" label="Participant 2" name="design_p2" value={this.state.design_p2} onChange={this.updateInput} m={8}/>
-                <TextInput id="TextInput-4" label="Participant 3" name="design_p3" type="email" value={this.state.design_p3} onChange={this.updateInput} m={8}/>
-            </div>
-        const gdForm =
-            <div className="hack-form">
-                <p>Group Discussion</p>
-                <TextInput id="TextInput-4" label="Participant 1" name="gd_p1" value={this.state.gd_p1} onChange={this.updateInput} m={8}/>
-            </div>
-        const surpriseForm = 
-            <div className="hack-form">
-                <p>Surprise</p>
-                <TextInput id="TextInput-4" label="Participant 1" name="surprise_p1" value={this.state.surprise_p1} onChange={this.updateInput} m={8}/>
-                <TextInput id="TextInput-4" label="Participant 2" name="surprise_p2" value={this.state.surprise_p2} onChange={this.updateInput} m={8}/>
-            </div>
         const crossForm = 
             <div className="hack-form">
                 <p>Crossword</p>
@@ -245,17 +220,27 @@ class RegisterPage extends Component {
                 <Checkbox id="checkbox_3" label="Adobe Spark" checked={this.state.checkAdobeSpark} onChange={this.handleAdobeSpark}/><br/>
                 <Checkbox id="checkbox_3" label="Paint 3D" checked={this.state.checkPaint3D} onChange={this.handlePaint3D}/><br/>
 
-                { hackForm }
-                { designForm }
-                { gdForm }
-                { surpriseForm }
-                { crossForm }
-                { audioForm }
-                { srRoboticsForm }
-                { jrRoboticsForm }
-                { jrQuiz }
-                { adobeSpark }
-                { paint3D }
+                <div className="hack-form">
+                    <p>Hackathon</p>
+                    <TextInput id="TextInput-4" label="Participant 1" name="hack_p1" value={this.state.hack_p1} onChange={this.updateInput} m={8}/>
+                    <TextInput id="TextInput-4" label="Participant 2" name="hack_p2" value={this.state.hack_p2} onChange={this.updateInput} m={8}/>
+                    <TextInput id="TextInput-4" label="Participant 3" name="hack_p3" type="email" value={this.state.hack_p3} onChange={this.updateInput} m={8}/>
+                </div>
+                <div className="hack-form">
+                    <p>Designathon</p>
+                    <TextInput id="TextInput-4" label="Participant 1" name="design_p1" value={this.state.design_p1} onChange={this.updateInput} m={8}/>
+                    <TextInput id="TextInput-4" label="Participant 2" name="design_p2" value={this.state.design_p2} onChange={this.updateInput} m={8}/>
+                    <TextInput id="TextInput-4" label="Participant 3" name="design_p3" type="email" value={this.state.design_p3} onChange={this.updateInput} m={8}/>
+                </div>
+                <div className="hack-form">
+                    <p>Group Discussion</p>
+                    <TextInput id="TextInput-4" label="Participant 1" name="gd_p1" value={this.state.gd_p1} onChange={this.updateInput} m={8}/>
+                </div>
+                <div className="hack-form">
+                    <p>Surprise</p>
+                    <TextInput id="TextInput-4" label="Participant 1" name="surprise_p1" value={this.state.surprise_p1} onChange={this.updateInput} m={8}/>
+                    <TextInput id="TextInput-4" label="Participant 2" name="surprise_p2" value={this.state.surprise_p2} onChange={this.updateInput} m={8}/>
+                </div>
 
                 <Button node="button" type="submit">Submit</Button>
             </form><br/>
