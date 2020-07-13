@@ -17,7 +17,7 @@ class EventsPage extends Component {
             />
             <div className="row flex">
                 {data.map(event => (
-                    <div className="col l4">
+                    <div className="col l4" key={event.title}>
                         <Card
                           title={event.title}
                           eligibility={event.eligibility}

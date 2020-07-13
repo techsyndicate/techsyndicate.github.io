@@ -13,6 +13,19 @@ nav .brand-logo {
   padding: 6px 0 3px 0;
 }
 
+.sidenav {
+  background-color: #0d0d0d;
+  color: #fff;
+}
+
+.sidenav li a {
+  color: #fff;
+}
+
+.sidenav li {
+  color: #fff;
+}
+
 .row .col {
   padding: 0 0.75rem 0 0;
 }
@@ -185,9 +198,11 @@ input[type='checkbox']{
   margin: 50px 0;
 }
 
-.landing-buttons {
+.landing-button {
+  background-color: #28a745;
   display: block;
-  margin: 0 40%;
+  margin: auto;
+  width: max-content;
 }
 
 .discord {

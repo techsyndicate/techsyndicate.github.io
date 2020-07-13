@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
-import { Row, Col } from "react-materialize";
+import { Row, Button } from "react-materialize";
 
 class IndexPage extends Component {
     render(){
@@ -13,8 +13,8 @@ class IndexPage extends Component {
                 <div className="landing-title">Robotronics '20</div>
                 <div className="landing-date">6th August 2020</div>
                 <Row>
-                    <Col m={12}><a href="https://ctrl.gq/eventdetails"><div className="prompt-button">Event Details</div></a></Col><br/><br/>
-                    <Col m={12}><a href="https://ctrl.gq/tsdiscord"><div className="prompt-button discord">Discord</div></a></Col>
+                    <Button href="https://ctrl.gq/eventdetails" node="a" waves="light" className="landing-button">Event details</Button><br/>
+                    <Button href="https://ctrl.gq/tsdiscord" node="a" waves="light" className="landing-button">Discord</Button>
                 </Row>
             </div>
             <br/><br/><br/><br/>

@@ -24,6 +24,7 @@ class Navbar extends Component {
             <li><Link className="sidenav-close" to="/members">Members</Link></li>
             <li><Link className="sidenav-close" to="/alumni">Alumni</Link></li>
             <li><Link className="sidenav-close" to="/resources">Resources</Link></li>
+            <li><a href="https://ctrl.gq/register">Register</a></li>
           </ul>
           </>
         )
