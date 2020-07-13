@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Jumbotron from "../components/jumbotron";
 import { Helmet } from "react-helmet";
+import { Row, Col } from "react-materialize";
 
 class IndexPage extends Component {
     render(){
@@ -9,10 +9,15 @@ class IndexPage extends Component {
             <Helmet>
                 <title>TS | Home</title>
             </Helmet>
-            <Jumbotron
-              title="Tech Syndicate"
-              desc="Robotronics '20 - Aug 6th, 2020"
-            />
+            <div className="landing">
+                <div className="landing-title">Robotronics '20</div>
+                <div className="landing-date">6th August 2020</div>
+                <Row>
+                    <Col m={12}><a href="https://ctrl.gq/eventdetails"><div className="prompt-button">Event Details</div></a></Col><br/><br/>
+                    <Col m={12}><a href="https://ctrl.gq/tsdiscord"><div className="prompt-button discord">Discord</div></a></Col>
+                </Row>
+            </div>
+            <br/><br/><br/><br/>
             </>
         )
     }

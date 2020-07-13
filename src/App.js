@@ -9,7 +9,6 @@ import MembersPage from './pages/members';
 import AlumniPage from './pages/alumni';
 import ResourcesPage from './pages/resources';
 import PageNotFound from './pages/404';
-import RegisterPage from './pages/register';
 
 function App() {
   return (

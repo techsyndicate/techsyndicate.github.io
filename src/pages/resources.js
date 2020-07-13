@@ -23,7 +23,7 @@ class ResourcesPage extends Component {
                     </Col>
                 </a>
             ))}
-            </Row><br/>
+            </Row><br/><br/>
             </>
         )
     }

@@ -15,6 +15,7 @@ class Navbar extends Component {
                       <li><Link to="/members">Members</Link></li>
                       <li><Link to="/alumni">Alumni</Link></li>
                       <li><Link to="/resources">Resources</Link></li>
+                      <li><a href="http://register.techsyndicate.co">Register</a></li>
                     </ul>
                 </div>
           </nav>

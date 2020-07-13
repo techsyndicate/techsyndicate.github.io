@@ -95,14 +95,29 @@ h4 {
   color: #fff;
   word-wrap: break-word;
   padding: 16px;
+  height: 440px;
   border: 1px solid #000;
   border-radius: 4px;
   margin: 10px;
 }
 
+.card a {
+  color: #16e16e;
+}
+
 .card hr {
   border: 1px solid #fff;
   background-color: #fff;
+}
+
+.prompt-button {
+  padding: 8px;
+  background-color: #28a745;
+  width: max-content;
+  border: 1px solid #28a745;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
 }
 
 .resource {
@@ -137,4 +152,35 @@ input {
 input[type='checkbox']{
   color: #fff;
   background-color: #fff;
+}
+
+.landing {
+  margin: 80px 0;
+  text-align: center;
+}
+
+.landing-title {
+  color: #fff;
+  font-size: 60px;
+  margin: 0;
+}
+
+.landing-date {
+  color: #fff;
+  font-size: 32px;
+  margin: 0 0 20px 0;
+}
+
+.landing-img {
+  height: 250px;
+  margin: 50px 0;
+}
+
+.landing-buttons {
+  display: block;
+  margin: 0 40%;
+}
+
+.discord {
+  padding: 8px 28px;
 }

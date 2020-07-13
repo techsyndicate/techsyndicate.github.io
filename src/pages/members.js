@@ -14,7 +14,7 @@ class MembersPage extends Component {
             </Helmet>
             <Jumbotron
               title="Members"
-              desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat dui ut varius ultricies. Nam fermentum iaculis elit, id rutrum lorem vestibulum et. Aenean ultricies ullamcorper nulla, cursus auctor sapien scelerisque et. Quisque est velit, elementum nec nisl feugiat, vestibulum placerat ligula."
+              desc="Tech Syndicate is the technology club of Amity International School, Sector 46, Gurgaon. It has members specializing in diverse fields, from A/V Editing and Web Development to Cryptic Hunts and Design."
             />
             <Row>
             <div className="member-grid">

@@ -14,7 +14,7 @@ class EventsPage extends Component {
             </Helmet>
             <Jumbotron
               title="Events"
-              desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat dui ut varius ultricies. Nam fermentum iaculis elit, id rutrum lorem vestibulum et. Aenean ultricies ullamcorper nulla, cursus auctor sapien scelerisque et. Quisque est velit, elementum nec nisl feugiat, vestibulum placerat ligula."
+              desc="Robotronics '20 has a total of 12 events. All the events add up to the final score for the overall winner."
             />
             <Row>
                 {data.map(event => (
@@ -24,6 +24,9 @@ class EventsPage extends Component {
                           eligibility={event.eligibility}
                           participants={event.participants}
                           desc={event.description}
+                          deliverables={event.deliverables}
+                          prompt={event.prompt}
+                          details={event.details}
                         />
                     </Col>
                 ))}
