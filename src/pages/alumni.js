@@ -14,7 +14,7 @@ class AlumniPage extends Component {
             </Helmet>
             <Jumbotron
               title="Alumni"
-              desc="Tech Syndicate has a well-connected alumni network which has never failed to provite its support to the club members."
+              desc="Tech Syndicate has a well-connected alumni network which has never failed to provide its support to the club members."
             />
             <Row>
                 {data.map(batch => (
