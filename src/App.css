@@ -86,6 +86,15 @@ h4 {
   font-size: 3rem;
 }
 
+.event-table {
+  display: table;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .event-card p {
   margin: 4px 0;
 }
@@ -95,7 +104,7 @@ h4 {
   color: #fff;
   word-wrap: break-word;
   padding: 16px;
-  height: 440px;
+  height: max-content;
   border: 1px solid #000;
   border-radius: 4px;
   margin: 10px;

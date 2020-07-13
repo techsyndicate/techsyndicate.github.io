@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Row, Col } from "react-materialize";
 import data from "../data/events";
 import Card from "../components/card";
 import Jumbotron from "../components/jumbotron";
@@ -16,9 +15,9 @@ class EventsPage extends Component {
               title="Events"
               desc="Robotronics '20 has a total of 12 events. All the events add up to the final score for the overall winner."
             />
-            <Row>
+            <div className="row flex">
                 {data.map(event => (
-                    <Col l={4} key={event.title}>
+                    <div className="col l4">
                         <Card
                           title={event.title}
                           eligibility={event.eligibility}
@@ -28,9 +27,9 @@ class EventsPage extends Component {
                           prompt={event.prompt}
                           details={event.details}
                         />
-                    </Col>
+                    </div>
                 ))}
-            </Row>
+            </div>
             </>
         )
     }
