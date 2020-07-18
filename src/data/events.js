@@ -56,7 +56,7 @@ const Events = [
         title: 'Jr Robotics',
         eligibility: 'V-VIII',
         participants: '2',
-        description: <p>Submit your entries <a href="https://ctrl.gq/jrrobosub">here</a> latest by 28th July.<br/><br/>Deliverables: A video of max 3 minutes depicting the construction and working of the prototype<br/><br/><br/><br/><br/><br/><a href="https://ctrl.gq/jrrobotics" target="_blank" rel="noopener noreferrer"><div className="prompt-button">Format</div></a></p>,
+        description: <p>Submit your entries <a href="https://ctrl.gq/jrrobo/sub">here</a> latest by 28th July.<br/><br/>Deliverables: A video of max 3 minutes depicting the construction and working of the prototype<br/><br/><br/><br/><br/><br/><a href="https://ctrl.gq/jrrobotics" target="_blank" rel="noopener noreferrer"><div className="prompt-button">Format</div></a></p>,
         prompt: 'https://ctrl.gq/jrrobotics'
     },
     {
