@@ -62,7 +62,7 @@ const Events = [
     {
         title: 'Jr Quiz',
         eligibility: 'VII-VIII',
-        participants: '2',
+        participants: '1',
         description: <p>Prelims will take place on 28th July.<br/>
         Only six teams will be selected for the final round.<br/><br/><br/><br/><a href="https://ctrl.gq/jrquiz/prelims" target="_blank" rel="noopener noreferrer"><div className="prompt-button">Prelims</div></a></p>
     },
