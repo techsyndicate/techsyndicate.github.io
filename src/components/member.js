@@ -6,7 +6,7 @@ class Member extends Component {
                 <div className="member">
                     <img className="responsive-img member-img" src={this.props.imgurl} alt={this.props.name}/>
                     <div className="member-content">
-                        <a href={this.props.web} target="_blank" rel="noopener noreferrer"><div className="member-name">{this.props.name}</div></a>
+                        <a href={this.props.web} target="_blank" rel="noopener noreferrer"><span className={this.props.css}><div className="member-name">{this.props.name}</div></span></a>
                         <p>{this.props.role}</p>
                     </div>
                 </div>

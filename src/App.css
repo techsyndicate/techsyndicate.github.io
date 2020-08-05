@@ -208,3 +208,7 @@ input[type='checkbox']{
 .discord {
   padding: 8px 28px;
 }
+
+.hover-link:hover {
+  color: #16e16e;
+}

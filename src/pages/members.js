@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'react-materialize';
 import Member from '../components/member';
-import data from '../data/members.json';
+import data from '../data/members';
 import Jumbotron from '../components/jumbotron';
 import { Helmet } from 'react-helmet';
 
@@ -24,7 +24,8 @@ class MembersPage extends Component {
                           name={member.name}
                           role={member.role}
                           imgurl={member.image}
-                          web={member.social["website"]}
+                          css={member.css}
+                          web={member.website}
                         />
                     </Col>
                 ))}
