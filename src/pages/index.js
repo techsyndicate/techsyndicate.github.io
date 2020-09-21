@@ -22,7 +22,7 @@ class IndexPage extends Component {
               <br />
               Participants across events exhibited their creativity by proposing
               solutions to societal problems, rebranding a fictional company,
-              solving tasks of cryptography and steganography, debating on
+              solving tasks of cryptography and steganography, and debating on
               topics like privatisation of NASA programs and the use of AI/ML to
               replace human judgement.
               <br />
