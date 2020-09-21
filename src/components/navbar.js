@@ -11,20 +11,20 @@ class Navbar extends Component {
                 <Link to="/"><span className="brand-logo"><img src="/assets/techsyndicate.png" alt="TS" height="50px" width="50px"/></span></Link>
                 <span className="sidenav-trigger hide-on-large-only" data-target="slide-out"><Icon>menu</Icon></span>
                     <ul id="nav-mobile" className="right hide-on-med-and-down">
+                      <li><Link to="/about">About</Link></li>
                       <li><Link to="/events">Events</Link></li>
                       <li><Link to="/members">Members</Link></li>
                       <li><Link to="/alumni">Alumni</Link></li>
                       <li><Link to="/resources">Resources</Link></li>
-                      <li><a href="http://register.techsyndicate.co">Register</a></li>
                     </ul>
                 </div>
           </nav>
           <ul className="sidenav" id="slide-out">
+            <li><Link className="sidenav-close" to="/about">About</Link></li>
             <li><Link className="sidenav-close" to="/events">Events</Link></li>
             <li><Link className="sidenav-close" to="/members">Members</Link></li>
             <li><Link className="sidenav-close" to="/alumni">Alumni</Link></li>
             <li><Link className="sidenav-close" to="/resources">Resources</Link></li>
-            <li><a href="https://ctrl.gq/register">Register</a></li>
           </ul>
           </>
         )

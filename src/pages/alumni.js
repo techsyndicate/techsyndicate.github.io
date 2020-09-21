@@ -1,44 +1,48 @@
 import React, { Component } from "react";
-import data from '../data/alumni.json';
+import data from "../data/alumni.json";
 import { Row, Col } from "react-materialize";
-import Jumbotron from '../components/jumbotron';
-import Member from '../components/member';
+import Member from "../components/member";
 import { Helmet } from "react-helmet";
 
 class AlumniPage extends Component {
-    render(){
-        return (
+  render() {
+    return (
+      <>
+        <Helmet>
+          <title>TS | Alumni</title>
+        </Helmet>
+        <div
+          style={{
+            fontSize: "3rem",
+            marginTop: "20px",
+            color: "#fff",
+          }}
+        >
+          Alumni
+        </div>
+        <Row>
+          {data.map((batch) => (
             <>
-            <Helmet>
-                <title>TS | Alumni</title>
-            </Helmet>
-            <Jumbotron
-              title="Alumni"
-              desc="Tech Syndicate has a well-connected alumni network which has never failed to provide its support to the club members."
-            />
-            <Row>
-                {data.map(batch => (
-                    <>
-                    <div className="alumni-grid">
-                    <h4>{batch.batch}</h4>
-                    <Row>
-                        {batch.alumni.map(alumnus => (
-                            <Col l={3} key={alumnus.name}>
-                                <Member
-                                  name={alumnus.name}
-                                  role={alumnus.exrole}
-                                  imgurl={alumnus.image}
-                                />
-                            </Col>
-                        ))}
-                    </Row>
-                    </div>
-                    </>
-                ))}
-            </Row>
+              <div className="alumni-grid">
+                <h4>{batch.batch}</h4>
+                <Row>
+                  {batch.alumni.map((alumnus) => (
+                    <Col l={3} key={alumnus.name}>
+                      <Member
+                        name={alumnus.name}
+                        role={alumnus.exrole}
+                        imgurl={alumnus.image}
+                      />
+                    </Col>
+                  ))}
+                </Row>
+              </div>
             </>
-        )
-    }
+          ))}
+        </Row>
+      </>
+    );
+  }
 }
 
 export default AlumniPage;
