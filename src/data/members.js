@@ -61,11 +61,6 @@ const Members = [
         image: "https://github.com/Jai-17.png"
     },
     {
-        name: "Ayush Dhiman",
-        role: "Member",
-        image: "/assets/members/ayushdhiman.jpg"
-    },
-    {
         name: "Yuvraaj Narula",
         role: "Member",
         image: "https://github.com/yuvraajnarula.png"
