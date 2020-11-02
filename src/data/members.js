@@ -54,7 +54,7 @@ const Members = [
     {
         name: "Tanush Guha",
         role: "Member",
-        image: "https://media.discordapp.net/attachments/644917201564073997/772722473804103681/20200426_185651.jpg"
+        image: "https://github.com/valkyrie-vulcan.png"
     },
     {
         name: "Amogh Arya",
