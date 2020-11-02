@@ -61,19 +61,9 @@ const Members = [
         image: "https://github.com/Jai-17.png"
     },
     {
-        name: "Yuvraaj Narula",
-        role: "Member",
-        image: "https://github.com/yuvraajnarula.png"
-    },
-    {
         name: "Omar Usmani",
         role: "Member",
         image: "https://github.com/Jazzuma.png"
-    },
-    {
-        name: "Aayan Agarwal",
-        role: "Member",
-        image: "https://github.com/ion05.png"
     },
     {
         name: "Amogh Arya",
