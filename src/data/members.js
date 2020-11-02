@@ -52,6 +52,11 @@ const Members = [
         image: "https://github.com/Jai-17.png"
     },
     {
+        name: "Tanush Guha",
+        role: "Member",
+        image: "https://media.discordapp.net/attachments/644917201564073997/772722473804103681/20200426_185651.jpg"
+    },
+    {
         name: "Amogh Arya",
         role: "Member",
         image: "https://github.com/amogharya.png"
@@ -80,6 +85,11 @@ const Members = [
         name: "Pranav Uppal",
         role: "Member",
         image: "https://github.com/upspal.png"
+    },
+    {
+        name: "Shaurya Sisaudia",
+        role: "Member",
+        image: "https://media.discordapp.net/attachments/704990127998500894/772832066307227668/shr.png"
     }
 ];
 
