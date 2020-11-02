@@ -4,7 +4,7 @@ const Members = [
         role: 'President',
         image: 'https://github.com/laxyapahuja.png',
         css: 'hover-link',
-        website: 'https://github.com/laxyapahuja'
+        website: 'https://laxya.co'
     },
     {
         name: 'Oorjit Chowdhary',
@@ -41,19 +41,10 @@ const Members = [
         image: "/assets/members/devjyotighosh.jpg"
     },
     {
-        name: "Vaibhav Sharma",
-        role: "Robotics",
-        image: "https://github.com/gigabite-pro.png"
-    },
-    {
         name: "Anshul Saha",
         role: "Hackathon",
-        image: "https://github.com/sheldor1510.png"
-    },
-    {
-        name: "Pranav Uppal",
-        role: "Member",
-        image: "https://github.com/upspal.png"
+        image: "https://github.com/sheldor1510.png",
+        website: "https://anshul.tk"
     },
     {
         name: "Jai Madhukar",
@@ -61,14 +52,19 @@ const Members = [
         image: "https://github.com/Jai-17.png"
     },
     {
-        name: "Omar Usmani",
-        role: "Member",
-        image: "https://github.com/Jazzuma.png"
-    },
-    {
         name: "Amogh Arya",
         role: "Member",
         image: "https://github.com/amogharya.png"
+    },
+    {
+        name: "Vaibhav Sharma",
+        role: "Robotics",
+        image: "https://github.com/gigabite-pro.png"
+    },
+    {
+        name: "Gobind Anand",
+        role: "Member",
+        image: "https://github.com/GobindAnand.png"
     },
     {
         name: "Nevis Kawatra",
@@ -76,9 +72,14 @@ const Members = [
         image: "https://github.com/NotNevisKawatra.png"
     },
     {
-        name: "Gobind Anand",
+        name: "Omar Usmani",
         role: "Member",
-        image: "https://github.com/GobindAnand.png"
+        image: "https://github.com/Jazzuma.png"
+    },
+    {
+        name: "Pranav Uppal",
+        role: "Member",
+        image: "https://github.com/upspal.png"
     }
 ];
 
