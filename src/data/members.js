@@ -39,7 +39,7 @@ const Members = [
     {
         name: "Devjyoti Ghosh",
         role: "Surprise",
-        image: "/assets/members/devjyotighosh.jpg"
+        image: "https://i.imgur.com/Bbibvvk.jpg"
     },
     {
         name: "Anshul Saha",
