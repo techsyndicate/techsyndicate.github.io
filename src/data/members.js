@@ -32,7 +32,7 @@ const Members = [{
     {
         name: "Mihir Aggarwal",
         role: "Joint Secretary",
-        image: "https/i.imgur.com/EhCuPKV.jpg",
+        image: "https://i.imgur.com/EhCuPKV.jpg",
         website: 'https://mihiraggarwal.co'
     },
     {
