@@ -1,4 +1,5 @@
-const Members = [{
+const Members = [
+    {
         name: 'Laxya Pahuja',
         role: 'President',
         image: 'https://i.imgur.com/G26Vs6n.jpg',
