@@ -1,27 +1,26 @@
-const Members = [
-    {
+const Members = [{
         name: 'Laxya Pahuja',
         role: 'President',
-        image: 'https://github.com/laxyapahuja.png',
+        image: 'https://picresize.com/images/rsz_5fa6db9ed2cd5.png',
         css: 'hover-link',
         website: 'https://laxya.co'
     },
     {
         name: 'Oorjit Chowdhary',
         role: "Vice President",
-        image: "https://github.com/oorjitchowdhary.png",
+        image: "https://picresize.com/images/rsz_5fa6def4910db.png",
         website: 'https://oorjit.co'
     },
     {
         name: "Ribhav Sharma",
         role: "Secretary",
-        image: "https://github.com/ribhavsharma.png",
+        image: "https://picresize.com/images/rsz_5fa6e0081ab82.png",
         website: 'https://ribhav.co'
     },
     {
         name: "Rachit Gupta",
         role: "Joint Secretary",
-        image: "https://github.com/dotrachit.png",
+        image: "https://picresize.com/images/rsz_5fa6dfb6788bd.png",
         website: 'https://rachitgupta.co'
     },
     {
@@ -32,7 +31,7 @@ const Members = [
     {
         name: "Mihir Aggarwal",
         role: "Joint Secretary",
-        image: "https://github.com/mihiraggarwal.png",
+        image: "https://picresize.com/images/rsz_5fa6e0540bfbd.png",
         website: 'https://mihiraggarwal.co'
     },
     {
