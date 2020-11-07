@@ -2,7 +2,7 @@ const Members = [
     {
         name: 'Laxya Pahuja',
         role: 'President',
-        image: 'https://i.imgur.com/G26Vs6n.jpg',
+        image: 'https://i.imgur.com/c94i4LD.jpg',
         css: 'hover-link',
         website: 'https://laxya.co'
     },
