@@ -73,6 +73,11 @@ const Members = [
         image: "https://github.com/GobindAnand.png"
     },
     {
+        name: "Aayush Garg",
+        role: "Member",
+        image: "https://media.discordapp.net/attachments/777573951413026826/777962350900412436/IMG_20201116_234743.jpg"
+    },
+    {
         name: "Nevis Kawatra",
         role: "Member",
         image: "https://github.com/NotNevisKawatra.png"
