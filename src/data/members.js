@@ -75,7 +75,8 @@ const Members = [
     {
         name: "Aayush Garg",
         role: "Member",
-        image: "https://media.discordapp.net/attachments/777573951413026826/777962350900412436/IMG_20201116_234743.jpg"
+        image: "https://media.discordapp.net/attachments/777573951413026826/777962350900412436/IMG_20201116_234743.jpg",
+        website: "https://www.aayushgarg.net"
     },
     {
         name: "Nevis Kawatra",
