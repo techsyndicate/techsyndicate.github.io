@@ -1,5 +1,40 @@
 [
   {
+    "batch": "2020-21",
+    "alumni": [
+      {
+        "name": "Laxya Pahuja",
+        "image": "https://github.com/laxyapahuja.png",
+        "exrole": "President",
+        "social": {}
+      },
+      {
+        "name": "Ribhav Sharma",
+        "image": "https://github.com/ribhavsharma.png",
+        "exrole": "Secretary",
+        "social": {}
+      },
+      {
+        "name": "Chiranjiv Singh Malhi",
+        "image": "https://github.com/chiranjivmalhi.png",
+        "exrole": "Member",
+        "social": {}
+      },
+      {
+        "name": "Devjyoti Ghosh",
+        "image": "/assets/members/devjyotighosh.jpg",
+        "exrole": "Member",
+        "social": {}
+      },
+      {
+        "name": "Pranav Uppal",
+        "image": "https://github.com/upspal.png",
+        "exrole": "Member",
+        "social": {}
+      }
+    ]
+  },
+  {
     "batch": "2019-20",
     "alumni": [
       {
